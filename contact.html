@@ -1,135 +1,149 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Contact - JC Portfolio</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
-          <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<html lang="en">
 
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-     <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html"><img src="assets/img/logo.png" width="100" alt="Logo"></a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-            </li>
-            <li class=" rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
-            </li>
-            <li class="active rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <style>
-      #map-container {
-        width: 100%;
-        height: 0;
-        margin: 0 auto;
-        padding-top: 134.74026%;
-        position: relative;
-      }
-      #map {
-        width: 100%;
-        height: 100%; /* had to specify height/width */
-        position: absolute;
-        top: 0; 
-        right: 0;
-        left: 0; 
-        bottom: 0; 
-      }
-      
-    </style>
-    <div class="ae-container-fluid ae-container-fluid--inner rk-main">
-      <div class="ae-grid">
-        <div class="ae-grid__item item-lg-6 item-lg--offset-7">
-          <h4 class="ae-u-bolder au-mb-3 conatct__title">Contact Me</h4>
-          <p class="au-mb-4 contact__desc">Say hello using thecontact form! <br>I'm currently accepting new client projects. Write me for jobs, asking something or just to go for a pizza.</p>
-        </div>
-      </div>
-      <div class="ae-grid">
-        <div class="ae-grid__item item-lg-6">
-          <div class="ae-grid ae-grid--collapse">
-            <div class="ae-grid__item item-lg-12">
-              <form id="contact-form" action="#0" class="ae-form--full">
-                <input type="text" placeholder="* Name" required>
-                <input type="email" placeholder="* Email" required>
-                <textarea placeholder="Message ..." cols="30" rows="4"></textarea>
-                <p class="au-xs-ta-right au-pt-4 group-buttons"><a href="#0" class="arrow-button arrow-button--right arrow-button--out">Send<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </form>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Box personal portfolio Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
             </div>
-          </div>
         </div>
-        <div class="ae-grid__item item-lg-6">
-          <div class="ae-grid ae-grid--collapse">
-            <div class="ae-grid__item item-lg-2 au-v-hidden au-lg-v-visible">
-              <button id="map-arrow" class="arrow-button arrow-button--nospace arrow-button--center arrow-button--flip">
-                <svg>
-                  <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                </svg>
-              </button>
-            </div>
-            <div class="ae-grid__item item-lg-10 au-xs-ta-center au-lg-ta-left">
-              <p class="au-mb-4 contact__addr">Cali<br>Colombia</p>
-              <p> <span class="contact__phone"> <span class="contact__email au-block au-truncate"> <span class="rk-light-color">Email &nbsp;&nbsp; </span><a href="#0">jcczurg@gmail.com</a></span></p>
-            </div>
-          </div>
-          
-        </div>
-      </div>
     </div>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-            </li>
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
-            </li>
-            <li class="active rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2016 JC PORTFOLIO </span></p>
-        </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            
+           <nav class="box-primary-nav-trigger">
+            <ul>
+	           <li><a href="portfolio.html">Work</a></li>
+	           <li><a href="about.html">About</a></li>
+	           <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+           
+        </header>
+        <!-- end box-header -->
+
        
-      </div>
+
+    </div>
+
+    <!-- top bar -->
+    <div class="top-bar-contact">
+        
+    </div>
+    <!-- end top bar -->
+
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-6">
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name">
+                            <span>your name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email">
+                            <span>your email</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-contact">
+                            <input type="text" name="object">
+                            <span>object</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="textarea-contact">
+                            <textarea name="message"></textarea>
+                            <span>message</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-box">Send</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            
+            <p>JC Portfolio <br> Interactive Media Designer <br> Cali, Colombia </p>
+            <div class="contact-info">
+                <p><i class="ion-ios-email" style="background: #00CED8;"></i> <a href="mailto:jcczurg@gmail.com">jcczurg@gmail.com</a></p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- end main-container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© JC Portfolio 2016</p>
+        </div>
     </footer>
-    
-  </body>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
