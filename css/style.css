@@ -1252,7 +1252,7 @@ textarea:focus {
 
 .info{
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 20%;
     max-width: 640px;
 }
 
@@ -1276,20 +1276,26 @@ textarea:focus {
 .next{
     height:260px;
     background: #272727;
+	transition: all ease 0.3s;
 }
 
 .next h3{
-    transition: ease 0.3s;
     color: #393939;
+	transition: ease 0.3s;
+}
+
+.next:hover{
+	background: #00DED8;
+	transition: all ease 0.3s;
 }
 
 .next:hover h3{
-    color: #bebcbc;
-    transition: ease 0.3s;
+    color: #fff;
+    transition: all ease 0.3s;
 }
 
 .next:hover h4{
-    color: #bebcbc;
+    color: #fff;
     transition: ease 0.3s;
 }
 
