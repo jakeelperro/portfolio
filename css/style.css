@@ -1108,6 +1108,47 @@ footer img {
     margin-top: 0;
 }
 
+.separater-hr {
+  margin: 0;
+  border-color: #454648; 
+}
+
+.services-icon-wrap span {
+  display: block; 
+}
+  .services-icon-wrap span.key-fact {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Hind", sans-serif;
+    color: #fff;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-top: 36px; }
+.services-icon-wrap .icon {
+  color: #6f6f71;
+  font-size: 60px;
+  display: inline-block;
+  perspective: 1000px;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+.services-icon-wrap .icon-wrap:hover .icon {
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  color: #fff; }
+
+h6 {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #00DED8;
+  margin-bottom: 33px; }
+
 
 /* contact page
 ==================================================*/
