@@ -1312,6 +1312,11 @@ textarea:focus {
     height:476px;
 }
 
+.altura2{
+    height:714.38px;
+    background: #fafafa;
+}
+
 .puertos{
     height:540px;
     background: #fafafa;
@@ -1336,6 +1341,8 @@ textarea:focus {
 	position: absolute;
 	width: 100%;
 	background-image: url(../img/inner-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 	opacity: 0;
 	z-index: 1;
 }
@@ -1343,6 +1350,8 @@ textarea:focus {
 .libro{
 	background-image: url(../img/pasa.jpg);
 	background-size: 600px;
+        background-size: cover;
+
 }
 
 .btn-next h3,h4{
